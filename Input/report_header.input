@@ -1,0 +1,325 @@
+<head>
+
+
+<meta content='Test Report' property='og:title'/>
+
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Test Report</title>
+<style id='page-skin-1' type='text/css'>
+
+<!--
+/*
+* Template Style
+*
+* Simple II
+* by Jason Sutter
+*/
+/* Variable definitions
+====================
+<Variable name="bgcolor" description=""
+type="color" default="#fff">
+<Variable name="textcolor" description=""
+type="color" default="#000">
+<Variable name="pagetitlecolor" description=""
+type="color" default="#000">
+<Variable name="titlecolor" description=""
+type="color" default="#000">
+<Variable name="footercolor" description=""
+type="color" default="#555">
+<Variable name="linkcolor" description=""
+type="color" default="#58a">
+<Variable name="visitedlinkcolor" description=""
+type="color" default="#999"> Used to be #969
+<Variable name="bordercolor" description=""
+type="color" default="#999">
+<Variable name="bodyfont" description=""
+type="font" default="normal normal 100% Georgia,Serif;">
+<Variable name="pagetitlefont" description=""
+type="font"
+default="normal bold 200% Georgia,Serif">
+*/
+body {
+margin:0;
+font:normal normal 100% Georgia,Serif;;
+background:#000000;
+color:#ffffff;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#5588aa;
+text-decoration:none;
+}
+/*
+a:hover {
+color:#000000;
+text-decoration:underline;
+}*/
+a img {
+border-width:0;
+}
+#outer-wrapper {
+margin: 0px 3em 0 3em;
+}
+h1 {
+border-bottom:dotted 1px #999999;
+margin-bottom:0px;
+color: #ffffff;
+font: normal bold 200% Georgia,Serif;
+}
+h1 a, h1 a:link, h1 a:visited {
+color: #ffffff;
+}
+h2 {
+margin:0px;
+padding: 0px;
+}
+#main .widget {
+padding-bottom:10px;
+margin-bottom:20px;
+border-bottom:dotted 1px #999999;
+clear: both;
+}
+#main .Header {
+border-bottom-width: 0px;
+}
+h2.date-header {
+padding-top:15px;
+color:#70aa55;
+padding-bottom:0px;
+margin-bottom:0px;
+font-size: 90%;
+}
+h3.post-title {
+font-size: 140%;
+color: #000000;
+}
+.post {
+padding-left:5%;
+padding-right:10%;
+}
+.post-footer {
+color:#70aa55;
+}
+#comments {
+padding-top:30px;
+color:#ffffff;
+padding-bottom:0px;
+margin-bottom:0px;
+font-weight:bold;
+}
+#comments .comment-footer {
+font-size:1em;
+font-weight:normal;
+color:#70aa55;
+margin-right:10px;
+display:inline;
+}
+.comment-author {
+margin-top: 3%;
+}
+.comment-body {
+font-size:1em;
+font-weight:normal;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-link {
+margin-left:.6em;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.clear {
+clear: both;
+}
+.profile-img {
+float: left;
+margin: 0 5px 5px 0;
+}
+body#layout #outer-wrapper {
+margin: 0px 50px 0 50px;
+}
+
+--></style>
+
+
+
+
+</head><head>
+
+
+<meta content='Test Report' property='og:title'/>
+
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Test Report</title>
+<style id='page-skin-1' type='text/css'>
+
+<!--
+/*
+* Template Style
+*
+* Simple II
+* by Jason Sutter
+*/
+/* Variable definitions
+====================
+<Variable name="bgcolor" description=""
+type="color" default="#fff">
+<Variable name="textcolor" description=""
+type="color" default="#000">
+<Variable name="pagetitlecolor" description=""
+type="color" default="#000">
+<Variable name="titlecolor" description=""
+type="color" default="#000">
+<Variable name="footercolor" description=""
+type="color" default="#555">
+<Variable name="linkcolor" description=""
+type="color" default="#58a">
+<Variable name="visitedlinkcolor" description=""
+type="color" default="#999"> Used to be #969
+<Variable name="bordercolor" description=""
+type="color" default="#999">
+<Variable name="bodyfont" description=""
+type="font" default="normal normal 100% Georgia,Serif;">
+<Variable name="pagetitlefont" description=""
+type="font"
+default="normal bold 200% Georgia,Serif">
+*/
+body {
+margin:0;
+font:normal normal 100% Georgia,Serif;;
+background:#000000;
+color:#ffffff;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#5588aa;
+text-decoration:none;
+}
+/*
+a:hover {
+color:#000000;
+text-decoration:underline;
+}*/
+a img {
+border-width:0;
+}
+#outer-wrapper {
+margin: 0px 3em 0 3em;
+}
+h1 {
+border-bottom:dotted 1px #999999;
+margin-bottom:0px;
+color: #ffffff;
+font: normal bold 200% Georgia,Serif;
+}
+h1 a, h1 a:link, h1 a:visited {
+color: #ffffff;
+}
+h2 {
+margin:0px;
+padding: 0px;
+}
+#main .widget {
+padding-bottom:10px;
+margin-bottom:20px;
+border-bottom:dotted 1px #999999;
+clear: both;
+}
+#main .Header {
+border-bottom-width: 0px;
+}
+h2.date-header {
+padding-top:15px;
+color:#70aa55;
+padding-bottom:0px;
+margin-bottom:0px;
+font-size: 90%;
+}
+h3.post-title {
+font-size: 140%;
+color: #000000;
+}
+.post {
+padding-left:5%;
+padding-right:10%;
+}
+.post-footer {
+color:#70aa55;
+}
+#comments {
+padding-top:30px;
+color:#ffffff;
+padding-bottom:0px;
+margin-bottom:0px;
+font-weight:bold;
+}
+#comments .comment-footer {
+font-size:1em;
+font-weight:normal;
+color:#70aa55;
+margin-right:10px;
+display:inline;
+}
+.comment-author {
+margin-top: 3%;
+}
+.comment-body {
+font-size:1em;
+font-weight:normal;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-link {
+margin-left:.6em;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.clear {
+clear: both;
+}
+.profile-img {
+float: left;
+margin: 0 5px 5px 0;
+}
+body#layout #outer-wrapper {
+margin: 0px 50px 0 50px;
+}
+
+--></style>
+
+
+
+
+</head>
