@@ -17,7 +17,7 @@ def click_on_element_by_xpath (browser, xpath, report_file_stream, timeout = 30)
     :param report_file_stream: the file where the result of the action (pass vs fail) will be stored
     :param timeout: maximum time during which the script will wait for the to be loaded
             after the time out the action will fail
-    :return: returns the element
+    :return: returns the element.
     """
     try:
         element = WebDriverWait (browser,timeout).until(expected_conditions.presence_of_element_located((By.XPATH,xpath)))
