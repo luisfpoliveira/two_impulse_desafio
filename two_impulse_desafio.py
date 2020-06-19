@@ -1,7 +1,7 @@
 from Utils.Generic_Web_Testing_Methods import *
 from Utils.Generic_reporting import *
 from selenium import webdriver
-
+from selenium.webdriver import ActionChains
 
 
 browser = webdriver.Chrome(executable_path='C:\selenium_drivers\chromedriver.exe')
@@ -63,7 +63,27 @@ click_on_element_by_xpath(browser,"//*[(text() = 'Pay with Card' or . = 'Pay wit
 time.sleep(5)
 
 
+
 click_on_element_by_xpath(browser,"//*[(text() = 'Pay with Card' or . = 'Pay with Card')]",report_file_stream)
+
+time.sleep(5)
+
+print ("frames\n")
+
+element = browser.find_element_by_xpath("//*[(text() = 'Provide feedback' or . = 'Provide feedback')]/parent::*/child::iframe")
+
+browser.switch_to.frame(element)
+
+click_on_element_by_xpath(browser,"//*[@class='Header-navBack']",report_file_stream)
+
+send_keys_to_element_by_xpath(browser,"//*[@placeholder='Card number']","4242424242424242",report_file_stream)
+
+send_keys_to_element_by_xpath(browser,"//*[@placeholder='MM / YY']","0121",report_file_stream)
+
+send_keys_to_element_by_xpath(browser,"//*[@placeholder='CVC']","123",report_file_stream)
+
+click_on_element_by_xpath(browser,"//*[@type='submit']",report_file_stream)
+
 
 
 # This text is the closing line of the report file
